@@ -16,6 +16,7 @@
 		D9A09BD91DB69257002F8622 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A09BD41DB69257002F8622 /* MBProgressHUD.framework */; };
 		D9A09BDA1DB69257002F8622 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A09BD51DB69257002F8622 /* pop.framework */; };
 		D9A09BDB1DB69257002F8622 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A09BD61DB69257002F8622 /* SDWebImage.framework */; };
+		D9A09BDD1DB69751002F8622 /* GoogleService-Info in Resources */ = {isa = PBXBuildFile; fileRef = D9A09BDC1DB69751002F8622 /* GoogleService-Info */; };
 		D9DC434E1DB6325B008F2481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC434D1DB6325B008F2481 /* AppDelegate.swift */; };
 		D9DC43501DB6325B008F2481 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC434F1DB6325B008F2481 /* ViewController.swift */; };
 		D9DC43531DB6325B008F2481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DC43511DB6325B008F2481 /* Main.storyboard */; };
@@ -23,7 +24,6 @@
 		D9DC43581DB6325B008F2481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DC43561DB6325B008F2481 /* LaunchScreen.storyboard */; };
 		D9DC43631DB6325B008F2481 /* JSQChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC43621DB6325B008F2481 /* JSQChatTests.swift */; };
 		D9DC436E1DB6325B008F2481 /* JSQChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC436D1DB6325B008F2481 /* JSQChatUITests.swift */; };
-		D9DC437C1DB638B5008F2481 /* GoogleService-Info-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9DC437B1DB638B5008F2481 /* GoogleService-Info-3.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +55,7 @@
 		D9A09BD41DB69257002F8622 /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = "Pods/../build/Debug-iphoneos/MBProgressHUD.framework"; sourceTree = "<group>"; };
 		D9A09BD51DB69257002F8622 /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pop.framework; path = "Pods/../build/Debug-iphoneos/pop.framework"; sourceTree = "<group>"; };
 		D9A09BD61DB69257002F8622 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "Pods/../build/Debug-iphoneos/SDWebImage.framework"; sourceTree = "<group>"; };
+		D9A09BDC1DB69751002F8622 /* GoogleService-Info */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GoogleService-Info"; sourceTree = "<group>"; };
 		D9DC434A1DB6325B008F2481 /* JSQChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSQChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DC434D1DB6325B008F2481 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9DC434F1DB6325B008F2481 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,7 +69,6 @@
 		D9DC43691DB6325B008F2481 /* JSQChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSQChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DC436D1DB6325B008F2481 /* JSQChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSQChatUITests.swift; sourceTree = "<group>"; };
 		D9DC436F1DB6325B008F2481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9DC437B1DB638B5008F2481 /* GoogleService-Info-3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-3.plist"; path = "../../../Downloads/GoogleService-Info-3.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,8 +158,8 @@
 				D9DC43511DB6325B008F2481 /* Main.storyboard */,
 				D9DC43541DB6325B008F2481 /* Assets.xcassets */,
 				D9DC43561DB6325B008F2481 /* LaunchScreen.storyboard */,
-				D9DC437B1DB638B5008F2481 /* GoogleService-Info-3.plist */,
 				D9DC43591DB6325B008F2481 /* Info.plist */,
+				D9A09BDC1DB69751002F8622 /* GoogleService-Info */,
 				D94379DC1DB65B0400268EEA /* BackendlessSub-Bridging-Header.m */,
 			);
 			path = JSQChat;
@@ -294,9 +294,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9DC43581DB6325B008F2481 /* LaunchScreen.storyboard in Resources */,
+				D9A09BDD1DB69751002F8622 /* GoogleService-Info in Resources */,
 				D9DC43551DB6325B008F2481 /* Assets.xcassets in Resources */,
 				D9DC43531DB6325B008F2481 /* Main.storyboard in Resources */,
-				D9DC437C1DB638B5008F2481 /* GoogleService-Info-3.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
