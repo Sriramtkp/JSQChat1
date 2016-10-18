@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9DC434E1DB6325B008F2481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC434D1DB6325B008F2481 /* AppDelegate.swift */; };
+		D9DC43501DB6325B008F2481 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC434F1DB6325B008F2481 /* ViewController.swift */; };
+		D9DC43531DB6325B008F2481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DC43511DB6325B008F2481 /* Main.storyboard */; };
+		D9DC43551DB6325B008F2481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DC43541DB6325B008F2481 /* Assets.xcassets */; };
+		D9DC43581DB6325B008F2481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DC43561DB6325B008F2481 /* LaunchScreen.storyboard */; };
+		D9DC43631DB6325B008F2481 /* JSQChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC43621DB6325B008F2481 /* JSQChatTests.swift */; };
+		D9DC436E1DB6325B008F2481 /* JSQChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC436D1DB6325B008F2481 /* JSQChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9DC435F1DB6325B008F2481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9DC43421DB6325B008F2481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9DC43491DB6325B008F2481;
+			remoteInfo = JSQChat;
+		};
+		D9DC436A1DB6325B008F2481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9DC43421DB6325B008F2481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9DC43491DB6325B008F2481;
+			remoteInfo = JSQChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9DC434A1DB6325B008F2481 /* JSQChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSQChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DC434D1DB6325B008F2481 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9DC434F1DB6325B008F2481 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9DC43521DB6325B008F2481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9DC43541DB6325B008F2481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9DC43571DB6325B008F2481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9DC43591DB6325B008F2481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9DC435E1DB6325B008F2481 /* JSQChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSQChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DC43621DB6325B008F2481 /* JSQChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSQChatTests.swift; sourceTree = "<group>"; };
+		D9DC43641DB6325B008F2481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9DC43691DB6325B008F2481 /* JSQChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSQChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DC436D1DB6325B008F2481 /* JSQChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSQChatUITests.swift; sourceTree = "<group>"; };
+		D9DC436F1DB6325B008F2481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9DC43471DB6325B008F2481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DC435B1DB6325B008F2481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DC43661DB6325B008F2481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9DC43411DB6325B008F2481 = {
+			isa = PBXGroup;
+			children = (
+				D9DC434C1DB6325B008F2481 /* JSQChat */,
+				D9DC43611DB6325B008F2481 /* JSQChatTests */,
+				D9DC436C1DB6325B008F2481 /* JSQChatUITests */,
+				D9DC434B1DB6325B008F2481 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9DC434B1DB6325B008F2481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9DC434A1DB6325B008F2481 /* JSQChat.app */,
+				D9DC435E1DB6325B008F2481 /* JSQChatTests.xctest */,
+				D9DC43691DB6325B008F2481 /* JSQChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9DC434C1DB6325B008F2481 /* JSQChat */ = {
+			isa = PBXGroup;
+			children = (
+				D9DC434D1DB6325B008F2481 /* AppDelegate.swift */,
+				D9DC434F1DB6325B008F2481 /* ViewController.swift */,
+				D9DC43511DB6325B008F2481 /* Main.storyboard */,
+				D9DC43541DB6325B008F2481 /* Assets.xcassets */,
+				D9DC43561DB6325B008F2481 /* LaunchScreen.storyboard */,
+				D9DC43591DB6325B008F2481 /* Info.plist */,
+			);
+			path = JSQChat;
+			sourceTree = "<group>";
+		};
+		D9DC43611DB6325B008F2481 /* JSQChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9DC43621DB6325B008F2481 /* JSQChatTests.swift */,
+				D9DC43641DB6325B008F2481 /* Info.plist */,
+			);
+			path = JSQChatTests;
+			sourceTree = "<group>";
+		};
+		D9DC436C1DB6325B008F2481 /* JSQChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9DC436D1DB6325B008F2481 /* JSQChatUITests.swift */,
+				D9DC436F1DB6325B008F2481 /* Info.plist */,
+			);
+			path = JSQChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9DC43491DB6325B008F2481 /* JSQChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9DC43721DB6325B008F2481 /* Build configuration list for PBXNativeTarget "JSQChat" */;
+			buildPhases = (
+				D9DC43461DB6325B008F2481 /* Sources */,
+				D9DC43471DB6325B008F2481 /* Frameworks */,
+				D9DC43481DB6325B008F2481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSQChat;
+			productName = JSQChat;
+			productReference = D9DC434A1DB6325B008F2481 /* JSQChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9DC435D1DB6325B008F2481 /* JSQChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9DC43751DB6325B008F2481 /* Build configuration list for PBXNativeTarget "JSQChatTests" */;
+			buildPhases = (
+				D9DC435A1DB6325B008F2481 /* Sources */,
+				D9DC435B1DB6325B008F2481 /* Frameworks */,
+				D9DC435C1DB6325B008F2481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9DC43601DB6325B008F2481 /* PBXTargetDependency */,
+			);
+			name = JSQChatTests;
+			productName = JSQChatTests;
+			productReference = D9DC435E1DB6325B008F2481 /* JSQChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9DC43681DB6325B008F2481 /* JSQChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9DC43781DB6325B008F2481 /* Build configuration list for PBXNativeTarget "JSQChatUITests" */;
+			buildPhases = (
+				D9DC43651DB6325B008F2481 /* Sources */,
+				D9DC43661DB6325B008F2481 /* Frameworks */,
+				D9DC43671DB6325B008F2481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9DC436B1DB6325B008F2481 /* PBXTargetDependency */,
+			);
+			name = JSQChatUITests;
+			productName = JSQChatUITests;
+			productReference = D9DC43691DB6325B008F2481 /* JSQChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9DC43421DB6325B008F2481 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sriram Rajendran";
+				TargetAttributes = {
+					D9DC43491DB6325B008F2481 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WARD5RY35S;
+					};
+					D9DC435D1DB6325B008F2481 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WARD5RY35S;
+						TestTargetID = D9DC43491DB6325B008F2481;
+					};
+					D9DC43681DB6325B008F2481 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WARD5RY35S;
+						TestTargetID = D9DC43491DB6325B008F2481;
+					};
+				};
+			};
+			buildConfigurationList = D9DC43451DB6325B008F2481 /* Build configuration list for PBXProject "JSQChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9DC43411DB6325B008F2481;
+			productRefGroup = D9DC434B1DB6325B008F2481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9DC43491DB6325B008F2481 /* JSQChat */,
+				D9DC435D1DB6325B008F2481 /* JSQChatTests */,
+				D9DC43681DB6325B008F2481 /* JSQChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9DC43481DB6325B008F2481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DC43581DB6325B008F2481 /* LaunchScreen.storyboard in Resources */,
+				D9DC43551DB6325B008F2481 /* Assets.xcassets in Resources */,
+				D9DC43531DB6325B008F2481 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DC435C1DB6325B008F2481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DC43671DB6325B008F2481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9DC43461DB6325B008F2481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DC43501DB6325B008F2481 /* ViewController.swift in Sources */,
+				D9DC434E1DB6325B008F2481 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DC435A1DB6325B008F2481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DC43631DB6325B008F2481 /* JSQChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DC43651DB6325B008F2481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DC436E1DB6325B008F2481 /* JSQChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9DC43601DB6325B008F2481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9DC43491DB6325B008F2481 /* JSQChat */;
+			targetProxy = D9DC435F1DB6325B008F2481 /* PBXContainerItemProxy */;
+		};
+		D9DC436B1DB6325B008F2481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9DC43491DB6325B008F2481 /* JSQChat */;
+			targetProxy = D9DC436A1DB6325B008F2481 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9DC43511DB6325B008F2481 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9DC43521DB6325B008F2481 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9DC43561DB6325B008F2481 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9DC43571DB6325B008F2481 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9DC43701DB6325B008F2481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9DC43711DB6325B008F2481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9DC43731DB6325B008F2481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSQChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shri.JSQChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9DC43741DB6325B008F2481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSQChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shri.JSQChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D9DC43761DB6325B008F2481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSQChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shri.JSQChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSQChat.app/JSQChat";
+			};
+			name = Debug;
+		};
+		D9DC43771DB6325B008F2481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSQChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shri.JSQChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSQChat.app/JSQChat";
+			};
+			name = Release;
+		};
+		D9DC43791DB6325B008F2481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSQChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shri.JSQChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSQChat;
+			};
+			name = Debug;
+		};
+		D9DC437A1DB6325B008F2481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSQChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shri.JSQChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSQChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9DC43451DB6325B008F2481 /* Build configuration list for PBXProject "JSQChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9DC43701DB6325B008F2481 /* Debug */,
+				D9DC43711DB6325B008F2481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9DC43721DB6325B008F2481 /* Build configuration list for PBXNativeTarget "JSQChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9DC43731DB6325B008F2481 /* Debug */,
+				D9DC43741DB6325B008F2481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9DC43751DB6325B008F2481 /* Build configuration list for PBXNativeTarget "JSQChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9DC43761DB6325B008F2481 /* Debug */,
+				D9DC43771DB6325B008F2481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9DC43781DB6325B008F2481 /* Build configuration list for PBXNativeTarget "JSQChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9DC43791DB6325B008F2481 /* Debug */,
+				D9DC437A1DB6325B008F2481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9DC43421DB6325B008F2481 /* Project object */;
+}
