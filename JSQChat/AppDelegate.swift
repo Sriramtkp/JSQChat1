@@ -7,15 +7,37 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    let APP_ID = "14A4E904-53A6-E3E8-FFED-25A944574D00"
+let SECRET_KEY = "EC60F383-FC29-8D17-FF8F-6F03F86DD900"
+    let VERSION_NO = "v1"
+    
+    
+    
+    let backendlessAppDelob = Backendless.sharedInstance()
+    
+    
+    
+    
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        FIRApp.configure()
+        
+        backendlessAppDelob.initApp(APP_ID, secret: SECRET_KEY, version: VERSION_NO)
+        
+        FIRDatabase.database().persistenceEnabled = true
+        
         return true
     }
 
