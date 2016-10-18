@@ -17,8 +17,10 @@
 		D9A09BDA1DB69257002F8622 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A09BD51DB69257002F8622 /* pop.framework */; };
 		D9A09BDB1DB69257002F8622 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A09BD61DB69257002F8622 /* SDWebImage.framework */; };
 		D9A09BDD1DB69751002F8622 /* GoogleService-Info in Resources */ = {isa = PBXBuildFile; fileRef = D9A09BDC1DB69751002F8622 /* GoogleService-Info */; };
+		D9A09BE21DB69AEF002F8622 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D9A09BDF1DB69AEF002F8622 /* ProgressHUD.bundle */; };
+		D9A09BE31DB69AEF002F8622 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A09BE11DB69AEF002F8622 /* ProgressHUD.m */; };
+		D9A09BE51DB69E61002F8622 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A09BE41DB69E61002F8622 /* WelcomeViewController.swift */; };
 		D9DC434E1DB6325B008F2481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC434D1DB6325B008F2481 /* AppDelegate.swift */; };
-		D9DC43501DB6325B008F2481 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC434F1DB6325B008F2481 /* ViewController.swift */; };
 		D9DC43531DB6325B008F2481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DC43511DB6325B008F2481 /* Main.storyboard */; };
 		D9DC43551DB6325B008F2481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DC43541DB6325B008F2481 /* Assets.xcassets */; };
 		D9DC43581DB6325B008F2481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DC43561DB6325B008F2481 /* LaunchScreen.storyboard */; };
@@ -56,9 +58,12 @@
 		D9A09BD51DB69257002F8622 /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pop.framework; path = "Pods/../build/Debug-iphoneos/pop.framework"; sourceTree = "<group>"; };
 		D9A09BD61DB69257002F8622 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "Pods/../build/Debug-iphoneos/SDWebImage.framework"; sourceTree = "<group>"; };
 		D9A09BDC1DB69751002F8622 /* GoogleService-Info */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GoogleService-Info"; sourceTree = "<group>"; };
+		D9A09BDF1DB69AEF002F8622 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		D9A09BE01DB69AEF002F8622 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		D9A09BE11DB69AEF002F8622 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		D9A09BE41DB69E61002F8622 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		D9DC434A1DB6325B008F2481 /* JSQChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSQChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DC434D1DB6325B008F2481 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9DC434F1DB6325B008F2481 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D9DC43521DB6325B008F2481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9DC43541DB6325B008F2481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9DC43571DB6325B008F2481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -128,9 +133,20 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D9A09BDE1DB69AEF002F8622 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D9A09BDF1DB69AEF002F8622 /* ProgressHUD.bundle */,
+				D9A09BE01DB69AEF002F8622 /* ProgressHUD.h */,
+				D9A09BE11DB69AEF002F8622 /* ProgressHUD.m */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
 		D9DC43411DB6325B008F2481 = {
 			isa = PBXGroup;
 			children = (
+				D9A09BDE1DB69AEF002F8622 /* ProgressHUD */,
 				D9DC434C1DB6325B008F2481 /* JSQChat */,
 				D9DC43611DB6325B008F2481 /* JSQChatTests */,
 				D9DC436C1DB6325B008F2481 /* JSQChatUITests */,
@@ -154,7 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				D9DC434D1DB6325B008F2481 /* AppDelegate.swift */,
-				D9DC434F1DB6325B008F2481 /* ViewController.swift */,
+				D9A09BE41DB69E61002F8622 /* WelcomeViewController.swift */,
 				D9DC43511DB6325B008F2481 /* Main.storyboard */,
 				D9DC43541DB6325B008F2481 /* Assets.xcassets */,
 				D9DC43561DB6325B008F2481 /* LaunchScreen.storyboard */,
@@ -296,6 +312,7 @@
 				D9DC43581DB6325B008F2481 /* LaunchScreen.storyboard in Resources */,
 				D9A09BDD1DB69751002F8622 /* GoogleService-Info in Resources */,
 				D9DC43551DB6325B008F2481 /* Assets.xcassets in Resources */,
+				D9A09BE21DB69AEF002F8622 /* ProgressHUD.bundle in Resources */,
 				D9DC43531DB6325B008F2481 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +387,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D94379DD1DB65B0400268EEA /* BackendlessSub-Bridging-Header.m in Sources */,
-				D9DC43501DB6325B008F2481 /* ViewController.swift in Sources */,
+				D9A09BE51DB69E61002F8622 /* WelcomeViewController.swift in Sources */,
+				D9A09BE31DB69AEF002F8622 /* ProgressHUD.m in Sources */,
 				D9DC434E1DB6325B008F2481 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
