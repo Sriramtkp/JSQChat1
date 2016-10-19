@@ -20,6 +20,8 @@
 		D9A09BE21DB69AEF002F8622 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D9A09BDF1DB69AEF002F8622 /* ProgressHUD.bundle */; };
 		D9A09BE31DB69AEF002F8622 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A09BE11DB69AEF002F8622 /* ProgressHUD.m */; };
 		D9A09BE51DB69E61002F8622 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A09BE41DB69E61002F8622 /* WelcomeViewController.swift */; };
+		D9A09BE81DB69FDA002F8622 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A09BE71DB69FDA002F8622 /* RegisterViewController.swift */; };
+		D9A09BEA1DB69FEC002F8622 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A09BE91DB69FEC002F8622 /* LoginViewController.swift */; };
 		D9DC434E1DB6325B008F2481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC434D1DB6325B008F2481 /* AppDelegate.swift */; };
 		D9DC43531DB6325B008F2481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DC43511DB6325B008F2481 /* Main.storyboard */; };
 		D9DC43551DB6325B008F2481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DC43541DB6325B008F2481 /* Assets.xcassets */; };
@@ -62,6 +64,8 @@
 		D9A09BE01DB69AEF002F8622 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		D9A09BE11DB69AEF002F8622 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
 		D9A09BE41DB69E61002F8622 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		D9A09BE71DB69FDA002F8622 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D9A09BE91DB69FEC002F8622 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D9DC434A1DB6325B008F2481 /* JSQChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSQChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DC434D1DB6325B008F2481 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9DC43521DB6325B008F2481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -143,6 +147,16 @@
 			path = ProgressHUD;
 			sourceTree = "<group>";
 		};
+		D9A09BE61DB69FBD002F8622 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9A09BE41DB69E61002F8622 /* WelcomeViewController.swift */,
+				D9A09BE71DB69FDA002F8622 /* RegisterViewController.swift */,
+				D9A09BE91DB69FEC002F8622 /* LoginViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		D9DC43411DB6325B008F2481 = {
 			isa = PBXGroup;
 			children = (
@@ -170,7 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				D9DC434D1DB6325B008F2481 /* AppDelegate.swift */,
-				D9A09BE41DB69E61002F8622 /* WelcomeViewController.swift */,
+				D9A09BE61DB69FBD002F8622 /* Controllers */,
 				D9DC43511DB6325B008F2481 /* Main.storyboard */,
 				D9DC43541DB6325B008F2481 /* Assets.xcassets */,
 				D9DC43561DB6325B008F2481 /* LaunchScreen.storyboard */,
@@ -386,7 +400,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9A09BEA1DB69FEC002F8622 /* LoginViewController.swift in Sources */,
 				D94379DD1DB65B0400268EEA /* BackendlessSub-Bridging-Header.m in Sources */,
+				D9A09BE81DB69FDA002F8622 /* RegisterViewController.swift in Sources */,
 				D9A09BE51DB69E61002F8622 /* WelcomeViewController.swift in Sources */,
 				D9A09BE31DB69AEF002F8622 /* ProgressHUD.m in Sources */,
 				D9DC434E1DB6325B008F2481 /* AppDelegate.swift in Sources */,

@@ -1,5 +1,5 @@
 //
-//  WelcomeViewController.swift
+//  LoginViewController.swift
 //  JSQChat
 //
 //  Created by Sriram Rajendran on 18-10-16.
@@ -8,8 +8,13 @@
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
+class LoginViewController: UIViewController {
 
+    
+    
+    @IBOutlet weak var loginTxtFld: UITextField!
+    
+    @IBOutlet weak var passwordTtFld: UITextField!
     
     
     
@@ -27,6 +32,15 @@ class WelcomeViewController: UIViewController {
     }
     
 
+    
+    @IBAction func btnLogin(sender: UIBarButtonItem) {
+        
+        
+    }
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 

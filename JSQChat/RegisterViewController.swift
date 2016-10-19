@@ -1,5 +1,5 @@
 //
-//  WelcomeViewController.swift
+//  RegisterViewController.swift
 //  JSQChat
 //
 //  Created by Sriram Rajendran on 18-10-16.
@@ -8,8 +8,12 @@
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
+class RegisterViewController: UIViewController {
 
+    @IBOutlet weak var emailTxtFld: UITextField!
+    @IBOutlet weak var passwordTxtFld: UITextField!
+    @IBOutlet weak var userNameTxtFld: UITextField!
+    
     
     
     
@@ -27,6 +31,13 @@ class WelcomeViewController: UIViewController {
     }
     
 
+    
+    @IBAction func btnRegister(sender: UIButton) {
+    }
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 
